@@ -1,11 +1,12 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import 'react-native-gesture-handler';
+import MainStack from './auth/navigation/MainStack';
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
+    <View style={{flex: 1}}>
+      <MainStack />
     </View>
   );
 };
